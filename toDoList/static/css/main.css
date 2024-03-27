@@ -308,7 +308,6 @@ button[disabled] {
 #reset {
 
 	color: $c-red;
-
 	&:hover,
 	&:focus {
 		background-color: $c-red;
