@@ -11,6 +11,9 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'toDoList.settings')
+# Establecer la variable de entorno que indica a Django que configuración usar
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todo_list.settings')
 
+# Obtener la aplicación ASGI que se pasa al servidor ASGI (por ejemplo, uvicorn)
 application = get_asgi_application()
+

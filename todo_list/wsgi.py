@@ -1,16 +1,19 @@
 """
-WSGI config for toDoList project.
+WSGI config for todo_list project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/5.0/howto/deployment/wsgi/
+
 """
 
 import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'toDoList.settings')
+# Establecer la variable de entorno que apunta al módulo de configuraciones
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todo_list.settings')
 
+# Obtener la aplicación WSGI
 application = get_wsgi_application()

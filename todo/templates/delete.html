@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+
+{% block content %}
+	<div class="w-10/12 md:w-3/6 shadow-md bg-white rounded-2xl p-4">
+		<div class="flex flex-col justify-between mb-4">
+
+			<!-- TITLE AND DESCRIPTION -->
+			<h1 class="text-gray-500 font-bold text-2xl underline text-center">
+				Delete Confirmation
+			</h1>
+			<br />
+			<h2 class="text-gray-500 font-semibold text-lg text-center">
+				Are you sure you want to delete "<span class="purple font-semibold text-lg">{{ task.title }}</span>"?<br />This actioin is irreversible.
+			</h2>
+		</div>
+
+		<!-- LINE -->
+		<hr class="border-t border-gray-200 my-2" />
+
+		<!-- TIME AND DATE / DELETE -->
+		<div class="flex flex-row justify-around mt-4">
+			<a href="{{ request.META.HTTP_REFERER }}" class="btn-purple py-2 px-4 text-white font-semibold rounded-xl flex items-center gap-2">
+				<i class="bx bxs-left-arrow-circle"></i> 
+				Go Back
+			</a>
+			<a href="{% url 'remove_task' task.id %}" class="btn-red py-2 px-4 text-white font-semibold rounded-xl flex items-center gap-2">
+				<i class="bx bxs-trash"></i> 
+				Yes, Delete
+			</a>
+		</div>
+	</div>
+{% endblock content %}

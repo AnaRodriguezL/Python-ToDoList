@@ -1,0 +1,81 @@
+@import url('tailwind.css');
+
+:root {
+	--c-dark: #212121;
+	--c-purple-light: #850BED;
+	--c-purple-dark: #3A05F1;
+	--c-gray: #f1f1f1;
+	--c-purple-gradient: linear-gradient(135deg, #850BED, #3A05F1, #3A05F1, #850BED);
+	--c-red-gradient: linear-gradient(135deg, #F44336, #D50000, #D50000, #F44330);
+}
+
+body {
+	background-color: var(--c-dark);
+	font: 14px 'Nunito', sans-serif;
+}
+
+section {
+	margin: 1.0rem;
+}
+
+h1 {
+	color: var(--c-purple-light);
+}
+
+p {
+	margin: 5px 0;
+}
+
+.purple {
+	color: var(--c-purple-light);
+}
+
+.container-logo {
+	text-align: center;
+	width: 100%;
+	margin-top: 1.75rem;
+}
+
+.logo,
+.today {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-evenly;
+}
+
+.today {
+	color: #fff;
+	font-size: 22px;
+	margin-top: 1.75rem;
+}
+
+.btn-purple {
+    background-image: var(--c-purple-gradient);
+}
+
+.btn-red {
+	background-image: var(--c-red-gradient);
+}
+
+.btn-purple, .btn-red {
+	background-size: 300% 100%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-purple:hover, .btn-red:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+@media (max-width: 680px) {
+	svg {
+		width: 70px;
+		height: 70px;
+	}
+}
