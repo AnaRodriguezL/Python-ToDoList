@@ -1,53 +1,49 @@
 # To-Do List 📝
 
-¡Bienvenido/a a mi aplicación de To-Do List! Este es un proyecto desarrollado con Django, Python, HTML y CSS que te permite gestionar tus tareas diarias de manera eficiente. ¡Comienza a organizar tu vida con nosotros! 🚀
+Welcome to my To-Do List application! This is a project developed with Django, Python, HTML, and CSS that allows you to efficiently manage your daily tasks. Start organizing your life with us! 🚀
 
-## Características
+## Features
 
-- Crea tareas fácilmente.
-- Marca las tareas como completadas una vez que las hayas terminado.
-- Elimina las tareas que ya no necesitas.
-- Interfaz de usuario atractiva y fácil de usar.
-- Integración con Taiwilind para una experiencia de usuario mejorada. 🎉
+- Easily create tasks.
+- Mark tasks as completed once you finish them.
+- Delete tasks you no longer need.
+- Attractive and user-friendly interface.
+- Integration with Taiwilind for an enhanced user experience. 🎉
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- **Django**: Framework de desarrollo web de alto nivel que fomenta un desarrollo rápido y limpio.
-- **Python**: Lenguaje de programación poderoso y versátil.
-- **HTML y CSS**: Lenguajes fundamentales para el desarrollo de páginas web.
-- **Taiwilind**: Biblioteca de emoticones y stickers para agregar un toque de diversión a la aplicación. 😊
+- **Django**: High-level web development framework that promotes rapid and clean development.
+- **Python**: Powerful and versatile programming language.
+- **HTML and CSS**: Fundamental languages for web development.
+- **Taiwilind**: Library of emojis and stickers to add a touch of fun to the application. 😊
 
-## Instalación
+## Installation
 
-1. Clona este repositorio en tu máquina local:
-
-## Instalación
-
-1. Clona este repositorio en tu máquina local:
-```
+1. Clone this repository to your local machine:
+```bash
 git clone https://github.com/AnaRodriguezL/Python-ToDoList.git
 ```
-2. Instala las dependencias del proyecto:
-```
+2. Install the project dependencies:
+```bash
 pip install -r requirements.txt
 ```
-3. Ejecuta las migraciones de Django:
-```
+3. Run Django migrations:
+```bash
 python manage.py migrate
 ```
-4. Inicia el servidor de desarrollo:
-```
+4. Start the development server:
+```bash
 python manage.py runserver
 ```
 
-¡Y eso es todo! Ahora puedes acceder a la aplicación en tu navegador web ingresando a `http://localhost:8000`.
+And that's it! You can now access the application in your web browser by navigating to `http://localhost:8000`.
 
-## Contribución
+## Contribution
 
-¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes ideas para mejorar la aplicación, no dudes en abrir un issue o enviar un pull request. ¡Tu ayuda es muy apreciada! 🙌
+Contributions are welcome! If you find any bugs or have ideas to improve the application, feel free to open an issue or submit a pull request. Your help is greatly appreciated! 🙌
 
-## Licencia
+## License
 
-Este proyecto está bajo la Licencia MIT. Siéntete libre de utilizarlo y modificarlo según tus necesidades.
+This project is licensed under the MIT License. Feel free to use and modify it according to your needs.
 
-¡Gracias por usar mi aplicación de To-Do List! Espero que te sea útil y que te ayude a mantenerte organizado/a en tu día a día. ¡Feliz planificación! ✨
+Thank you for using my To-Do List application! I hope it helps you stay organized in your day-to-day life. Happy planning! ✨
