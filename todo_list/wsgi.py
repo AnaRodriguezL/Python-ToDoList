@@ -12,8 +12,8 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-# Establecer la variable de entorno que apunta al módulo de configuraciones
+# Set the environment variable that points to the configuration module
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todo_list.settings')
 
-# Obtener la aplicación WSGI
+# Get WSGI application
 application = get_wsgi_application()

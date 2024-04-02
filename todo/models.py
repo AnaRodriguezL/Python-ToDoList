@@ -8,5 +8,13 @@ class Task(models.Model):
     due_time = models.TimeField()
     completed = models.BooleanField(default=False)
 
+
+    # Returns a string representation of the model.
+    #
+    # The string is constructed from the 'title' field.
+    #
+    # Returns:
+    #     str: A string representation of the model.
     def __str__(self) -> str:
+        """Returns a string representation of the model."""
         return f'{self.title}'

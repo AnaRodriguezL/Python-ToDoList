@@ -11,9 +11,9 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-# Establecer la variable de entorno que indica a Django que configuración usar
+# Set the environment variable that tells Django which settings to use
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todo_list.settings')
 
-# Obtener la aplicación ASGI que se pasa al servidor ASGI (por ejemplo, uvicorn)
+# Get the ASGI application to pass to the ASGI server (e.g. uvicorn)
 application = get_asgi_application()
 
