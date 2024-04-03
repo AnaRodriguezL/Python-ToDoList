@@ -74,9 +74,7 @@ def add_task(request):
                 completed=completed
             )
             task.save()
-            return redirect('home', {
-                'current_url': 'home'
-            })
+            return redirect('home')
     else:
         return render(request, 'add_task.html', {
             'current_url': 'add_task'
@@ -132,9 +130,7 @@ def toggle_complete(request, task_id):
     if task:
         task.completed = not task.completed
         task.save()
-        return redirect('home', {
-            'current_url': 'home'
-        })
+        return redirect('home')
 
 
 def remove_task(request, task_id):
@@ -148,6 +144,4 @@ def remove_task(request, task_id):
     task = Task.objects.get(id=task_id)
     if task:
         task.delete()
-        return redirect('home', {
-            'current_url': 'home'
-        })
+        return redirect('home')
