@@ -27,7 +27,7 @@ def completed(request):
 
     return render(request, 'completed.html', {
         'tasks': completed_tasks,
-        'current_url': 'completed',
+        'current_url': 'home',
     })
 
 
@@ -42,7 +42,7 @@ def remaining(request):
 
     return render(request, 'remaining.html', {
         'tasks': remaining_tasks,
-        'current_url': 'remaining',
+        'current_url': 'home',
     })
 
 
