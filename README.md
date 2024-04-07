@@ -1,4 +1,4 @@
-# 📝 To-Do List
+# To-Do List 📝
 
 Welcome to my To-Do List application! This is a project developed with Django, Python, HTML, and CSS that allows you to efficiently manage your daily tasks. Start organizing your life with us! 🚀
 
