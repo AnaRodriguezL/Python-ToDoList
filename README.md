@@ -1,8 +1,8 @@
-# To-Do List 📝
+# 📝 To-Do List
 
 Welcome to my To-Do List application! This is a project developed with Django, Python, HTML, and CSS that allows you to efficiently manage your daily tasks. Start organizing your life with us! 🚀
 
-## Features
+## ✅ Features
 
 - Easily create tasks.
 - Mark tasks as completed once you finish them.
@@ -10,14 +10,14 @@ Welcome to my To-Do List application! This is a project developed with Django, P
 - Attractive and user-friendly interface.
 - Integration with Taiwilind for an enhanced user experience. 🎉
 
-## Technologies Used
+## 💻 Technologies Used
 
 - **Django**: High-level web development framework that promotes rapid and clean development.
 - **Python**: Powerful and versatile programming language.
 - **HTML and CSS**: Fundamental languages for web development.
 - **Taiwilind**: Library of emojis and stickers to add a touch of fun to the application. 😊
 
-## Installation
+## 🛠️ Installation
 
 1. Clone this repository to your local machine:
 ```bash
@@ -38,11 +38,11 @@ python manage.py runserver
 
 And that's it! You can now access the application in your web browser by navigating to `http://localhost:8000`.
 
-## Contribution
+## 🤝 Contribution
 
 Contributions are welcome! If you find any bugs or have ideas to improve the application, feel free to open an issue or submit a pull request. Your help is greatly appreciated! 🙌
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License. Feel free to use and modify it according to your needs.
 
